@@ -1,0 +1,23 @@
+# betting_management
+tools to analyze pinnacle betting slips
+
+How to use: 
+
+- Download Pinnacle - Bet History tab
+- Select all of the data on each of the "slips"
+- There should be "16 columns" or rows for each slip when you paste the data into a text file
+
+column_names <- c("Settled_Date", "Prop_Name", "Bet_Details", "Odds",
+                      "Bet_No_Label", "Bet_No", "Status", "Accepted_Label", "Accepted_Date",
+                      "Stake_Label", "Stake", "Win_Label", "Win", "Payout_Label", "Payout")
+
+- Save betting slips to a file called "pinnacle_slips.txt"
+- Open text file in notepad++ or something similar
+- Replace all mentions of the below character strings
+  - Remove by replacing at symbol with a space after it with nothing
+  - Remove comma by replacing comma with nothing
+
+"@ "
+","
+
+- Run script
