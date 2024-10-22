@@ -20,4 +20,6 @@ column_names <- c("Settled_Date", "Prop_Name", "Bet_Details", "Odds",
 "@ "
 ","
 
+- Change folder paths to local folders lines #186 and #401
+  folder_path <- "C:/Users/willa/Documents/betting/betting management/archive/csv/"
 - Run script
