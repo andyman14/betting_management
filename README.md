@@ -1,5 +1,5 @@
 # betting_management
-tools to analyze pinnacle betting slips
+tools to analyze pinnacle betting slips for NFL, NBA, MLB and "other categories"
 
 How to use: 
 
