@@ -1,5 +1,5 @@
 # betting_management
-tools to analyze pinnacle betting slips for NFL, NBA, MLB and "other categories"
+Script to analyze pinnacle betting slips for NFL, NBA, MLB and "other categories"
 
 How to use: 
 
@@ -23,3 +23,4 @@ column_names <- c("Settled_Date", "Prop_Name", "Bet_Details", "Odds",
 - Change folder paths to local folders lines #186 and #401
   folder_path <- "C:/Users/willa/Documents/betting/betting management/archive/csv/"
 - Run script
+- Spits out csv file to enter into "bet tracker"
